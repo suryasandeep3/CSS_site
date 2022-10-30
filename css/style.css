@@ -3,6 +3,7 @@ body{
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 h1{
   margin: 50px auto 0 auto ;
@@ -15,6 +16,7 @@ h2{
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 h3{
   font-family: 'Montserrat',sans-serif;
@@ -22,6 +24,12 @@ h3{
 }
 a{
   color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
 }
 .pro{
   text-decoration: underline;
@@ -32,16 +40,14 @@ a{
   padding-top: 100px;
 }
 .middle-container{
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
+  margin: 100px 0;
+  position: relative;
 }
 .bottom-container{
   padding-top: 40px;
   padding-bottom: 30px;
   position: relative;
   background-color: #66BFBF;
-  /* display: flex; */
   color: #11999E;
 }
 .bottomcloud{
@@ -55,11 +61,11 @@ a{
   right: 300px;
 }
 .profImg{
-  width: 25%;
+  width: 12.5%;
 }
-.profile{
-  width: 40%;
-  margin: 100px auto 100px auto;
+.intro{
+  width: 30%;
+  margin: auto;
   line-height: 2;
 }
 .skill-row{
@@ -84,25 +90,29 @@ hr{
   border-color: #EAF6F6;
   border-width: 7.5px;
   width: 5%;
+  margin: 100px auto;
 }
 .contact_me{
   width: 50%;
   line-height: 2;
   margin: 50px auto 50px auto;
 }
+.contactmsg{
+  margin: 40px auto;
+  width: 55%;
+}
 .btn{
   background-color: #11999E;
   color: white;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 8px;
   text-decoration: none;
-  font-family: sans-serif;
-
+}
+.btn:hover{
+  background-color: #30e3cb;
 }
 .endcredits{
   color: #EAF6F6;
-}
-.footer-link{
-  padding: 20px;
-  text-decoration: none;
+  font-size: 0.75rem;
+  padding-top: 20px;
 }
